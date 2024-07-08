@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>login</title>
+    <style>
+      *{
+        margin:0;
+        padding:0;
+      }
+      body{
+        height:100vh;
+        width:100vw;
+      }
+      #content{
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        background-color:#8A8CE1;
+      }
+      .card{
+        margin-top:20px;
+        padding:10px 10px 10px 10px;
+        width:500px;
+        height:500px;
+        background-color:white;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        gap:50px;
+        border:2px solid #888;
+      }
+      .image{
+        height:150px;
+        width:150px;
+        border-radius:150px;
+      }
+      .detail{
+        width:100%;
+      }
+      .detail input{
+        width:100%;
+        border:2px solid grey;
+        border-radius:5px;
+      }
+      button{
+        width:100%;
+        height:30px;
+        border:none;
+        border-radius:5px;
+        color:white;
+        background-color:#8A8CE1;
+      }
+    </style>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <section id="content">
+      <div class="card">
+        <img src="./gvm.jpg" alt="" class="image">
+        <div class="detail">
+          <h5>Email</h5>
+          <input type="Email" name="email" value="" required>
+        </div>
+        <div class="detail">
+          <h5>Password</h5>
+          <input type="Password" name="password" value="" required>
+        </div>
+        <button type="submit">Login</button>
+      </div>
+    </section>
+  </body>
+</html>

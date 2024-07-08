@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+      *{
+        margin:0;
+        padding:0;
+      }
+      body{
+        height:100vh;
+        width:100vw;
+      }
+      #header{
+        width:100%;
+        height:50px;
+        display:flex;
+        text-align:center;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        background-color:#496E7C;
+      }
+      #content{
+        height:100%;
+        width:100%;
+        display:flex;
+        background-color:#FDFD96;
+        gap:10px;
+        padding-top:10px;
+        flex-direction:column;
+        align-items:center;
+      }
+      .scard{
+        background-color:#A7C7E7;
+        height:50px;
+        text-align:center;
+        padding:10px;
+        border:none;
+        border-radius:5px;
+        box-shadow:2px 2px 2px 2px #888;
+        width:700px;
+      }
+      .card{
+        background-color:#A7C7E7;
+        height:100px;
+        padding:10px;
+        border:none;
+        border-radius:5px;
+        box-shadow:2px 2px 2px 2px #888;
+        width:700px;
+      }
+      .list{
+        margin-top:10px;
+        margin-left:40px;
+        align-self:center;
+      }
+      .title{
+        color:#A020F0;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="header">
+      <h2>Grandma's Secret Apple Pie</h2>
+    </section>
+    <section id="content">
+    <div class="scard">
+      <p>This Apple pie recipe has been in my family for genrations and 
+      never fails to delight</p>
+    </div>
+    <div class="card">
+      <h4 class="title">Ingredients</h4>
+      <ul class="list">
+        <li>1/2 cup sugar</li>
+        <li>2 tsp ground cinnamon</li>
+        <li>6 medium-sized apples, peeled and sliced</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4 class="title">Instructions</h4>
+      <ol class="list">
+        <li>Preheat oven to 375*F (190*C).</li>
+        <li>In a bowl, mix the sugar and cinnamon.</li>
+        <li>Toss the apples in the sugar-cinnamon mixture.</li>
+      </ol>
+    </div>
+    </section>
+  </body>
+</html>

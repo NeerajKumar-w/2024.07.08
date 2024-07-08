@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ecommerce</title>
+    <style>
+      *{
+        margin:0;
+        padding:0;
+      }
+      body{
+        width:100vw;
+        height:100vh;
+        display:grid;
+        background-color:#DEEFF5;
+        align-items:center;
+        justify-content:center;
+      }
+      .card{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+        background-color:#fff;
+        border:2px solid #888;
+        border-radius:5px;
+        height:250px;
+        width:200px;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns:auto auto;
+        grid-template-rows:auto auto;
+        gap:5px;
+      }
+      button{
+        padding:3px;
+        border-radius:5px;
+        background-color:#00ff00;
+        border:none;
+        color:white;
+      }
+    </style>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="grid">
+    <div class="card">
+      <img src="./gvm.jpg" alt="" height=100px width=100px>
+      <h5>Product 1</h5>
+      <h6>$69.420</h6>
+      <button type="submit">Add to cart</button>
+    </div>
+    <div class="card">
+      <img src="./gvm.jpg" alt="" height=100px width=100px>
+      <h5>Product 2</h5>
+      <h6>$69.420</h6>
+      <button type="submit">Add to cart</button>
+    </div>
+    <div class="card">
+      <img src="./gvm.jpg" alt="" height=100px width=100px>
+      <h5>Product 3</h5>
+      <h6>$69.420</h6>
+      <button type="submit">Add to cart</button>
+    </div>
+    <div class="card">
+      <img src="./gvm.jpg" alt="" height=100px width=100px>
+      <h5>Product 4</h5>
+      <h6>$69.420</h6>
+      <button type="submit">Add to cart</button>
+    </div>
+    </div>
+  </body>
+</html>
